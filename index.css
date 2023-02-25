@@ -1,0 +1,172 @@
+:root {
+    --size: 24px;
+    --mar-t-b: 10.5px;
+    --border: 2px solid black;
+    --rotate: 5deg;
+    --color: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(121, 9, 9, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.rotating-square {
+    margin: auto;
+    width: calc(var(--size) * 10);
+    height: calc(var(--size) * 10);
+    background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(121, 9, 9, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    border: var(--border);
+    border-radius: 25%;
+    position: relative;
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating-square2 {
+    margin: var(--mar-t-b) auto;
+    width: calc(var(--size) * 9);
+    height: calc(var(--size) * 9);
+    background: var(--color);
+    border: var(--border);
+    border-radius: 25% 10%;
+    position: relative;
+    animation: spin 500s linear infinite;
+    transform: rotate(calc(var(--rotate)* 1.2));
+}
+
+.rotating-square3 {
+    margin: var(--mar-t-b) auto;
+    width: calc(var(--size) * 8);
+    height: calc(var(--size) * 8);
+    background: var(--color);
+    border: var(--border);
+    border-radius: 25% 10%;
+    position: relative;
+    animation: spin 500s linear infinite;
+    transform: rotate(calc(var(--rotate)* 1.4));
+}
+
+.rotating-square4 {
+    margin: var(--mar-t-b) auto;
+    width: calc(var(--size) * 7);
+    height: calc(var(--size) * 7);
+    background: var(--color);
+    border: var(--border);
+    border-radius: 25% 10%;
+    position: relative;
+    animation: spin 500s linear infinite;
+    transform: rotate(calc(var(--rotate)* 1.7));
+}
+
+.rotating-square5 {
+    margin: var(--mar-t-b) auto;
+    width: calc(var(--size) * 6);
+    height: calc(var(--size) * 6);
+    background: var(--color);
+    border: var(--border);
+    border-radius: 25% 10%;
+    position: relative;
+    animation: spin 500s linear infinite;
+    transform: rotate(calc(var(--rotate)* 2.1));
+}
+
+.rotating-square6 {
+    margin: var(--mar-t-b) auto;
+    width: calc(var(--size) * 5);
+    height: calc(var(--size) * 5);
+    background: var(--color);
+    border: var(--border);
+    border-radius: 25% 10%;
+    position: relative;
+    animation: spin 500s linear infinite;
+    transform: rotate(calc(var(--rotate)* 2.5));
+}
+
+.rotating-square7 {
+    margin: var(--mar-t-b) auto;
+    width: calc(var(--size) * 4);
+    height: calc(var(--size) * 4);
+    background: var(--color);
+    border: var(--border);
+    border-radius: 25% 10%;
+    position: relative;
+    animation: spin 500s linear infinite;
+    transform: rotate(calc(var(--rotate)* 3.3));
+}
+
+.rotating-square8 {
+    margin: var(--mar-t-b) auto;
+    width: calc(var(--size) * 3);
+    height: calc(var(--size) * 3);
+    background: var(--color);
+    border: var(--border);
+    border-radius: 25% 10%;
+    position: relative;
+    animation: spin 500s linear infinite;
+    transform: rotate(calc(var(--rotate)* 4.4));
+}
+
+.rotating-square9 {
+    margin: calc(var(--mar-t-b) - 2.5px) auto;
+    width: calc(var(--size) * 2);
+    height: calc(var(--size) * 2);
+    background: var(--color);
+    border: var(--border);
+    border-radius: 25% 10%;
+    position: relative;
+    animation: spin 500s linear infinite;
+    transform: rotate(calc(var(--rotate)* 5));
+}
+
+.rotating-square10 {
+    margin: calc(var(--mar-t-b) - 2.5px) auto;
+    width: calc(var(--size) * 1.3);
+    height: calc(var(--size) * 1.3);
+    background: var(--color);
+    border: var(--border);
+    border-radius: 25% 10%;
+    position: relative;
+    animation: spin 500s linear infinite;
+    transform: rotate(calc(var(--rotate)* 6));
+}
+
+.rotating-square11 {
+    margin: calc(var(--mar-t-b) - 5px) auto;
+    width: calc(var(--size) * 0.8);
+    height: calc(var(--size) * 0.8);
+    background: var(--color);
+    border: var(--border);
+    border-radius: 25% 10%;
+    position: relative;
+    animation: spin 500s linear infinite;
+    transform: rotate(calc(var(--rotate)* 8));
+}
+
+.rotating-square12 {
+    margin: calc(var(--mar-t-b) - 7px) auto;
+    width: calc(var(--size) * 0.4);
+    height: calc(var(--size) * 0.4);
+    background: var(--color);
+    border: var(--border);
+    border-radius: 25% 10%;
+    position: relative;
+    animation: spin 500s linear infinite;
+    transform: rotate(calc(var(--rotate)* 9));
+}
+
+.rotating-square13 {
+    margin: calc(var(--mar-t-b) - 8.5px) auto;
+    width: calc(var(--size) * 0.1);
+    height: calc(var(--size) * 0.1);
+    background: var(--color);
+    border: var(--border);
+    border-radius: 25% 10%;
+    position: relative;
+    animation: spin 500s linear infinite;
+    transform: rotate(calc(var(--rotate)* 9));
+}
